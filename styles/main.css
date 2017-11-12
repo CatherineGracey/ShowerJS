@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+.shower {
+  height: 100%;
+  width: 100%;
+}
+.faucet {
+  padding-top: 10%;
+  margin-left: 50%;
+}
+.horizontal {
+  background-color: silver;
+  height: 1rem;
+}
+.vertical {
+  width: 1rem;
+  height: 2rem;
+  background-color: silver;
+}
+.head {
+  width: 10rem;
+  height: 1rem;
+  margin-left: -4.5rem;
+  background-color: silver;
+  border-radius: 50% 50% 0 0;
+}
+.taps {
+  float: left;
+  width: 5rem;
+  padding: .5rem;
+  margin: 1rem;
+  z-index: 2;
+}
+.tap {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  cursor: -webkit-grab;
+}
+.cold {
+  background-color: blue;
+}
+.hot {
+  background-color: red;
+}
+.water {
+  height: 80%;
+}

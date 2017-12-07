@@ -53,3 +53,10 @@ body {
 .water {
   width: 100%;
 }
+.drop {
+  width: 10px;
+  height: 10px;
+  background-color: lightblue;
+  border-radius: 80% 0 55% 50%;
+  transform: rotateZ(-45deg);
+}
